@@ -1,0 +1,35 @@
+# 🧮 Complex Number Algebra
+
+A Jupyter Notebook demonstrating basic algebraic operations on complex numbers:  
+**addition**, **multiplication**, **negation**, and **inversion** — all implemented manually, without using Python’s built-in `complex()` type.
+
+## 💡 What it does
+- Defines complex numbers as tuples `(a, b)` representing **a + bi**  
+- Shows step-by-step implementations of:
+  - ➕ **Addition** → `(a + c, b + d)`
+  - ✖️ **Multiplication** → `(ac - bd, ad + bc)`
+  - ➖ **Negation** → `(-a, -b)`
+  - 🔁 **Inversion** → `(a/(a² + b²), -b/(a² + b²))`
+- Prints readable results like:
+4 + 6i
+-5 + 14i
+-3 - 2i
+0.23 - 0.15i
+
+## 🧠 Learning goals
+- Understand how complex numbers work under the hood  
+- Practice writing clean Python functions  
+- Learn to format output elegantly using **f-strings**, `abs()`, and conditional signs  
+- Strengthen mathematical reasoning in code  
+
+## 🧰 Requirements
+- Python 3.x  
+- Jupyter Notebook  
+
+Run the notebook:
+```bash
+jupyter notebook complex_number_algebra.ipynb
+
+🧑‍💻 Author
+Created by moroniq
+
